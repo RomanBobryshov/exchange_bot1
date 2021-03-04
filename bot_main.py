@@ -1,4 +1,5 @@
 import logging
+from aiogram import Bot, Dispatcher, executor, types
 from bot_list import sqlite_3_select, Rates
 from exchange import Exchange
 from keyboard import *
